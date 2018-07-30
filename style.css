@@ -1,0 +1,41 @@
+.parent{
+  display:flex;
+  flex-direction:row;
+  justify-content:center;
+}
+.child{
+  border:2px solid #18BFE5;
+  padding:2%;
+  margin:2%;
+  box-shadow:3px 3px 3px #ddd;
+}
+img{
+  width:200px;
+  height:200px;
+  border-radius:50%;
+  border:2px solid #18BFE5;
+}
+h2,
+h3{
+text-align:center;
+}
+a{
+  display:block;
+  text-align:center;
+  text-decoration:none;
+  background:#18BFE5;
+  color:#fff;
+  padding:2%;
+  }
+  .leftChild{
+    width:30%;
+    border:2px solid #ddd;
+    padding:2%;
+    margin:2%;
+  }
+  .rightChild{
+    width:70%;
+    border:2px solid #ddd;
+    padding:2%;
+    margin:2%;
+  }
