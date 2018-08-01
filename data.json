@@ -41,5 +41,13 @@
     "title":"Operating System",
     "set":["Windows","DOS","Linux","Mac"]
   }
-  ]
+],
+"achievement":[
+  {
+    "achievedData":"Got 1 <sup>st</sup> prize in PPT presentation."
+  },
+  {
+    "achievedData":"Got 3<sup>rd</sup> Prize in Singing Competition."
+  }
+]
 }
