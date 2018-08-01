@@ -39,8 +39,12 @@ function education(edu) {
   child0.appendChild(heading);
   var hLine=document.createElement("hr");
   heading.appendChild(hLine);
+
   var table=document.createElement("table");
-  child0.appendChild(table);
+  var div=document.createElement("div");
+  div.classList.add("table-responsive");
+  child0.appendChild(div);
+  div.appendChild(table);
   var tr="<tr> <td> S.No </td> <td> Degree </td> <td> Institute </td> <td> Data </td> </tr>";
   //table.innerHTML=tr;
   table.border="1";

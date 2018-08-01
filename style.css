@@ -1,6 +1,10 @@
 tr:nth-child(even){
   background: #ddd;
 }
+
+.table-responsive{
+  overflow-x:scroll;
+}
 .parent{
   display:flex;
   flex-direction:row;
@@ -52,8 +56,7 @@ text-align:center;
     text-decoration:none;
     font-size: 20px;
   }
-  @media only screen and (min-width:320px) and (max-width:480px)
-  {
+  @media only screen and (min-width:320px) and (max-width:480px){
     .parent{
       display:flex;
       flex-direction:column;
@@ -109,6 +112,7 @@ text-align:center;
   .parent{
     display:flex;
     flex-direction:row;
+    flex-wrap:wrap;
     justify-content:center;
   }
   .child{
@@ -142,13 +146,13 @@ text-align:center;
     .leftChild{
       text-align: center;
       text-decoration: none;
-      width:50%;
+      width:92%;
       border:2px solid #ddd;
       padding:2%;
       margin:2%;
     }
     .rightChild{
-      width:50%;
+      width:92%;
       border:2px solid #ddd;
       padding:2%;
       margin:2%;
