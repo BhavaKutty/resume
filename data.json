@@ -1,0 +1,45 @@
+{
+  "career":{
+    "info":"To pursue a challenging career and be a part of progressive organization that gives a scope to enhance my knowledge and utilizing my skills towards the growth of the organization"
+  },
+  "education":[
+    {
+      "degree":"MCA(Computer Application)",
+      "institute":"Siddhartha Institute of Engineering college",
+      "data":["2016-19","84%"]
+    },
+    {
+      "degree":"BCA(Computer Application)",
+      "institute":"Sridevi Arts & Science College",
+      "data":["2013-16","76%"]
+    },
+    {
+      "degree":"Intermediate(M.C)",
+      "institute":"Govt.High.Sec.School",
+      "data":["2012-13","72%"]
+    },
+    {
+      "degree":"S.S.C",
+      "institute":"Vivekananda.High.Sec.School",
+      "data":["2010-11","71%"]
+    }
+  ],
+  "skills":[
+    {
+      "title":"Programming Languages",
+      "set":["Java","C","Python","C++"]
+  },
+  {
+    "title":"Web Technology",
+    "set":["HTML","CSS","PHP","JavaScript"]
+  },
+  {
+    "title":"Data Bases",
+    "set":["sql","mysql","Oracle","Nosql"]
+  },
+  {
+    "title":"Operating System",
+    "set":["Windows","DOS","Linux","Mac"]
+  }
+  ]
+}
